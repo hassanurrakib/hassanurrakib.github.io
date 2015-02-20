@@ -962,7 +962,17 @@
 		padding-bottom: 0;
 		overflow: hidden;
 	}
+		#contact header .init{
 
+			position: relative;
+			top: -50px !important;
+		}
+
+		#contact header .con{
+
+			position: relative;
+			top: -50px !important;
+		}
 		#contact .box {
 			position: relative;
 			bottom: 0;
