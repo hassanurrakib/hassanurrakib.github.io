@@ -769,10 +769,10 @@ html, body {
 	transform: translateX(-100%);
 }
 
-.main .intro {
+/*.main .intro {
 	padding: 120px 10px 100px 10px;
 	background-image: url(..assets/images/bg.jpg);
-}
+}*/
 
 .main .intro img {
 	margin-bottom: 50px;
@@ -782,7 +782,7 @@ html, body {
 	font-family: 'Poppins';
 	font-size: 14px;
 	font-weight: 600;
-	color: #A1A1A1;
+	color: #eee;
 	letter-spacing: 3px;
 	line-height: 1.4;
 	text-transform: uppercase;
@@ -806,9 +806,9 @@ html, body {
 	font-weight: 400;
 	line-height: 1;
 	padding: 10px 16px;
-	color: #111;
+	color: #FFF;
 	border-radius: 0;
-	background: #FF3333;
+	background: #222;
 	letter-spacing: 2px;
 	margin: 50px auto;
 	-webkit-transition: 0.4s;
@@ -818,9 +818,9 @@ html, body {
 }
 
 .btn-action:hover, .btn-action:focus {
-	border-color: #111111;
-	background: transparent;
-	color: #111111;
+	
+	background: #FF3333;
+	color: #fff;
 }
 
 
@@ -1494,6 +1494,9 @@ label {
 .main .footer {
 	background: #111111;
 }
+.main .contact.footer{
+	padding: 200px 0 184px 0;
+}
 
 .main .footer .cta h1, .main .footer .cta a, .main .footer .social ul li a, .main .footer .address h2 {
 	color: #F9F9F9;
@@ -1750,3 +1753,44 @@ label {
 	}
 
 }
+
+.video-section .pattern-overlay {
+background-color: rgba(71, 71, 71, 0.59);
+padding: 110px 0 32px;
+min-height: 496px; 
+/* Incase of overlay problems just increase the min-height*/
+}
+
+.video-section .buttonBar{display:none;}
+.player {font-size: 1px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

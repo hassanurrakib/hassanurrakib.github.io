@@ -50,3 +50,15 @@ $('.portfolio-filter a').on('click', function () {
 
 
 });
+
+/*========= Video =======*/
+
+$(document).ready(function () {
+
+    $(".player").mb_YTPlayer();
+
+});
+
+
+
+
