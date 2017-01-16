@@ -108,13 +108,13 @@ html, body {
 
 
 ::-moz-selection {
-    color: #1106CC;
-    background: #FFFFFF;
+    color: #FF3333;
+    background: none;
 }
 
 ::selection {
-    color: #1106CC;
-    background: #FFFFFF;
+    color: #FF3333;
+    background: none;
 }
 
 .nopadding {
@@ -238,7 +238,6 @@ html, body {
 .logo {
 	position: absolute;
 	top: 13px;
-	left: 2%;
 	font-family: 'Poppins';
 	font-size: 16px;
 	line-height: 1;
@@ -281,14 +280,9 @@ html, body {
   top: 0;
   right: 0;
   border-radius: 0;
-	background-color: #1B1B1B;
 	z-index: 111;
   transition: all 400ms ease-in;
   user-select: none;
-}
-
-.is-active.nav-trigger {
-  background: #DDDDDD;
 }
 
 .hamburger {
@@ -311,7 +305,7 @@ html, body {
   width: 22px;
   height: 2px;
 	left: 2px;
-  background: #FFFFFF;
+  background: #000;
   transform-origin: 100% 50%;
   transition: all 100ms ease-in-out;
 }
@@ -331,7 +325,7 @@ html, body {
 .is-active .hamburger::before,
 .is-active .hamburger::after,
 .is-active .hamburger .icon {
-  background: #FFFFFF;
+  background: #000;
 }
 
 .is-active .hamburger::before {
@@ -421,7 +415,7 @@ html, body {
 
 .back-home i {
 	font-size: 34px;
-	color: #666666;
+	color: #333;
 	-webkit-transition: 0.2s;
 	-moz-transition: 0.2s;
 	-o-transition: 0.2s;
@@ -1209,6 +1203,7 @@ html, body {
 
 .pitch {
 	padding: 0 0 150px 0;
+	margin-top: 120px;
 }
 
 .pitch .inner h1 {
@@ -1600,7 +1595,7 @@ label {
 		.logo {
 			font-size: 18px;
 			transform: rotate(90deg);
-			right: 5px;
+			right: 10px;
 			top: 40%;
 		}
 
@@ -1658,7 +1653,7 @@ label {
 		}
 
 		.portfolio {
-			padding: 100px 0 100px 0;
+			padding: 100px 0 30px 0;
 		}
 
 		.project .details h2 {
