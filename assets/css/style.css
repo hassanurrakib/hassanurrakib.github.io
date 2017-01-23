@@ -1750,7 +1750,7 @@ label {
 }
 
 .video-section .pattern-overlay {
-background-color: rgba(0, 0, 0, 0.7);
+background-color: rgba(0, 0, 0, 0.5);
 padding: 110px 0 32px;
 min-height: 496px; 
 /* Incase of overlay problems just increase the min-height*/
